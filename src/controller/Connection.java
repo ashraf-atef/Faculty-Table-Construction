@@ -23,7 +23,7 @@ public class Connection {
     void conn(String user_name, String password,String ip) throws ClassNotFoundException, SQLException {
         String unicode = "?useUnicode=yes&characterEncoding=UTF-8";
        
-        final String DB_URL = "jdbc:mysql://" + ip + "/faculity_table";
+        final String DB_URL = "jdbc:mysql://" + ip + "/faculty_table";
         final String USER = user_name;
         final String PASS = password;
 
